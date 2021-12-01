@@ -31,6 +31,8 @@ abstract public class Veiculo {
 		this.motor = motor;
 	}
 	
-	
+	public void ligarMotor() {
+		System.out.println("Ligando o motor por Herança");
+	}
 
 }
