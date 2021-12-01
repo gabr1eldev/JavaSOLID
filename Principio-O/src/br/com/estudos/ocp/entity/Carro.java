@@ -19,6 +19,7 @@ public class Carro extends Veiculo{
 				+"\ncor= " + cor 
 				+"\nano= " + ano 
 				+"\nmotor= " + motor);
+		ligarMotor();
 	}
 
 	
