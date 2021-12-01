@@ -16,6 +16,12 @@ public class Moto extends Veiculo{
 		this.tipoDeFreio = tipoDeFreio;
 	}
 	
-	
+	public void criarMoto() {
+		System.out.println("Criando uma Moto Por Herança \n"
+				+ "\tipo de Freio= " + tipoDeFreio
+				+"\ncor= " + cor 
+				+"\nano= " + ano 
+				+"\nmotor= " + motor);
+	}
 
 }

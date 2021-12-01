@@ -14,7 +14,7 @@ public class Carro extends Veiculo{
 	}
 	
 	public void criarCarro() {
-		System.out.println("Criando um carro Por Herança "
+		System.out.println("Criando um carro Por Herança \n"
 				+ "\nassentos= " + assentos 
 				+"\ncor= " + cor 
 				+"\nano= " + ano 
