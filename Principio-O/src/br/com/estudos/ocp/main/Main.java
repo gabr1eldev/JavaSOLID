@@ -1,4 +1,4 @@
-package br.com.estudos.ocp;
+package br.com.estudos.ocp.main;
 
 public class Main {
 
