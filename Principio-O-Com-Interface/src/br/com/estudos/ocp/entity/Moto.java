@@ -10,6 +10,8 @@ public class Moto implements InterMoto {
 	private String tipoDeFreio;
 	
 	
+	public Moto() {}
+	
 
 	public Moto(String cor, String ano, double motor, String tipoDeFreio) {
 		montarMoto(cor, ano, motor, tipoDeFreio);
@@ -23,15 +25,15 @@ public class Moto implements InterMoto {
 		this.motor = motor;
 		this.tipoDeFreio = tipoDeFreio;
 		
-		toString();
+		exibirMoto();
 		ligarMotor();
 	}
 	
 	
 
-	@Override
-	public String toString() {
-		return "Moto [cor=" + cor + ", ano=" + ano + ", motor=" + motor + ", tipoDeFreio=" + tipoDeFreio + "]";
+	
+	public void exibirMoto() {
+		System.out.println("Criando a Moto com Interface\n[cor=" + cor + ", ano=" + ano + ", motor=" + motor + ", tipoDeFreio=" + tipoDeFreio + "]");
 	}
 
 	@Override

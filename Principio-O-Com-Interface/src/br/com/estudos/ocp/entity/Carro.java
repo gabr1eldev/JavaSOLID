@@ -8,6 +8,8 @@ public class Carro implements InterCarro{
 	private String ano;
 	private double motor;
 	private Integer assentos;
+	
+	public Carro() {}
 
 	public Carro(String cor, String ano, double motor, Integer assentos) {
 		montarCarro(cor, ano, motor, assentos);
@@ -20,15 +22,15 @@ public class Carro implements InterCarro{
 		this.motor = motor;
 		this.assentos = assentos;
 		
-		toString();
+		exibindoCarro();
 		ligarMotor();
 		
 	}
 	
 
-	@Override
-	public String toString() {
-		return "Carro [cor=" + cor + ", ano=" + ano + ", motor=" + motor + ", assentos=" + assentos + "]";
+	
+	public void exibindoCarro() {
+		System.out.println( "Criando o Carro com Interface\n[cor=" + cor + ", ano=" + ano + ", motor=" + motor + ", assentos=" + assentos + "]");
 	}
 
 	public String getCor() {
