@@ -18,12 +18,12 @@ public class Main {
 		if(tpVeiculo == TipoDeVeiculo.CARRO) {
 			String motorCarro = JOptionPane.showInputDialog("Quantos Cavalos");
 			String portas = JOptionPane.showInputDialog("Quantas Portas");
-			Carro carro = new Carro(ano,cor,Double.parseDouble(motorCarro), Integer.parseInt(portas));
+			Carro carro = new Carro(cor,ano,Double.parseDouble(motorCarro), Integer.parseInt(portas));
 			carro.criarCarro();
 		} else if(tpVeiculo == TipoDeVeiculo.MOTO) {
 			String freio = JOptionPane.showInputDialog("Qual o tipo de Freio");
 			String motorMoto = JOptionPane.showInputDialog("Quantas cilindradas");
-			Moto moto = new Moto(ano, cor, Double.parseDouble(motorMoto), freio);
+			Moto moto = new Moto(cor, ano,Double.parseDouble(motorMoto) , freio);
 			moto.criarMoto();
 		}
 		

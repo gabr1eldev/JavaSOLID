@@ -18,7 +18,7 @@ public class Moto extends Veiculo{
 	
 	public void criarMoto() {
 		System.out.println("Criando uma Moto Por Herança \n"
-				+ "\tipo de Freio= " + tipoDeFreio
+				+"\ntipo de Freio= " + tipoDeFreio
 				+"\ncor= " + cor 
 				+"\nano= " + ano 
 				+"\nmotor= " + motor);
