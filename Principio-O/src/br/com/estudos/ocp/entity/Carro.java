@@ -12,6 +12,14 @@ public class Carro extends Veiculo{
 	public void setAssentos(Integer assentos) {
 		this.assentos = assentos;
 	}
+	
+	public void criarCarro() {
+		System.out.println("Criando um carro Por Herança "
+				+ "\nassentos= " + assentos 
+				+"\ncor= " + cor 
+				+"\nano= " + ano 
+				+"\nmotor= " + motor);
+	}
 
 	
 }
