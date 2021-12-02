@@ -30,5 +30,5 @@ e fechado para modificação,extendendo assim a class Veículo para Carro e Moto
 CARRO e MOTO,logo em seguida criamos a class Main onde foi testado dinamicamente os objetos por herança.</h4
 
 <b><h3>Principio-O-Com-Interface</h3></b>
-<h4>Aqui foi básicamente o mesmo projeto da branch <b>Principio-O</b> sendo que foi feito com </br>
+<h4>Aqui foi básicamente o mesmo projeto da branch <h3>Principio-O</h3> sendo que foi feito com </br>
 interface em vez de utilizar herança que é do princípio OCP podendo ser com herança ou interfaces</h4>
