@@ -17,9 +17,10 @@
 </ul>
 
 <h3>Sobre cada Branch:</h3>
-<b>Principio-S</b>- Foi criada uma class CRUD onde ela deveria fazer apenas uma única responsabilidade:</br>O sistema de CRUD,
+<b><h4>Principio-S</h4></b> 
+<h5>Foi criada uma class CRUD onde ela deveria fazer apenas uma única responsabilidade:</br>O sistema de CRUD,
 porém no final dos métodos CRUD,existe outro método chamado notificarCliente(),quebrando assim </br> o princípio da responsabilidade única. 
-Para corrigir este "erro"criamos uma Notificacao dentro do pacote utility,</br> separando então da class CRUD e corrigindo o princípio da Responsabilidade única
+Para corrigir este "erro"criamos uma Notificacao dentro do pacote utility,</br> separando então da class CRUD e corrigindo o princípio da Responsabilidade única</h5>
 </hr>
 <b>Principio-O</>- Projeto feito com Herança,onde criamos 3 classes,onde 1 era a class principal que é a class Veículo</br>
 e as classes Carro e Moto,onde essas duas classes herdaram da classe mãe Veículo que vem do princípio aberto para extensão</br>
