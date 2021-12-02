@@ -17,6 +17,6 @@
 </ul>
 
 <h3>Sobre cada Branch:</h3>
-<b>Principio-S</b>- <p>Foi criada uma class CRUD onde ela deveria fazer apenas uma única responsabilidade: O sistema de CRUD,</br>
+<b>Principio-S</b>- Foi criada uma class CRUD onde ela deveria fazer apenas uma única responsabilidade: O sistema de CRUD,</br>
 porém no final dos métodos CRUD,existe outro método chamado notificarCliente(),quebrando assim o princípio da responsabilidade única. </br>
-Para corrigir este "erro" Notificacao dentro do pacote utility,separando então da class CRUD e corrigindo o princípio da Responsabilidade única </p>
+Para corrigir este "erro" Notificacao dentro do pacote utility,separando então da class CRUD e corrigindo o princípio da Responsabilidade única
