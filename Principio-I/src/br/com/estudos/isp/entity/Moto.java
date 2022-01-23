@@ -19,7 +19,7 @@ public class Moto implements Iveiculo{
 		this.color = color;
 		this.year = year;
 		this.engine = engine;
-		System.out.println("Criando uma Moto" + engine + " " + color + " " + year);
+		System.out.println("Criando uma Moto " + engine + " " + color + " " + year);
 		iniciarVeiculo();
 		
 	}
