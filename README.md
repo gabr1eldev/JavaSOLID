@@ -47,4 +47,8 @@ tudo irá funcionar perfeitamente porque fizemos orientado a Inferface,assim nã
 que alterar a class NubankCard e apenas implementamos a mesma Interface</h4>
 
 <b><h3>Principio-I</h3></b>
-<h4>
+<h4>Primeiro criamos 2 classes Carro e Moto que implementará uma única interface que contém 2 métodos: </br>
+criar um carro e criar uma moto,sendo assim quando implementamos essa interface nas duas classes,</br>
+ficamos com um método a mais sem usá-lo, a solução é aplicar o Princípio da segregação da</br>
+interface,construindo mais 2 interface e dividindo as tarefas,uma para criar carro e outra</br>
+para criar  uma moto,evitando assim uma inferface inflada.</h4>
