@@ -12,7 +12,7 @@ public abstract class CartaoNubank implements Pagamento {
 
 	@Override
 	public void coletarPagamento() {
-		// TODO Auto-generated method stub
+		System.out.println("pagamento realizado!.");
 		
 	}
 
