@@ -38,4 +38,5 @@ interface em vez de utilizar herança que é do princípio OCP podendo ser com h
 validarCartao e coletarPagamento,depois foi criada as class DebitCard e CreditCard que extend da class Mãe CartaoNubank,</br>
 onde cada um reescreveu o que faz em seus métodos,logo em seguida foi criada a class Main para testes, até o momento está tudo Ok!.</br>
 Agora aplicaremos o Principio de Substituição de Liskov, criamos a class NubankRewards onde receberá a implementação da interface Pagamento,</br>
-agora ao invés de chamar o CreditCard ou DebitCard, chamaremos o NubankRewards e de acordo com a subistituição de Liskov tudo irá funcionar perfeitamente.</h4>
+agora ao invés de chamar o CreditCard ou DebitCard, chamaremos o NubankRewards e de acordo com a subistituição de Liskov,</br>
+tudo irá funcionar perfeitamente.</h4>
