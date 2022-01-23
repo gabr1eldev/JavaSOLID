@@ -33,7 +33,7 @@ CARRO e MOTO,logo em seguida criamos a class Main onde foi testado dinamicamente
 <h4>Aqui foi básicamente o mesmo projeto da branch <strong>Principio-O</strong> sendo que foi feito com </br>
 interface em vez de utilizar herança que é do princípio OCP podendo ser com herança ou interfaces</h4>
 
-<b><h3>Principio-L</></b>
+<b><h3>Principio-L</h3></b>
 <h4>Foi criado uma class abstrata Mãe CartaoNubank onde foi implementado a interface Pagamento,que tem como métodos validarCartao e coletarPagamento,</br>
  depois foi criada as class DebitCard e CreditCard que extend da class Mãe CartaoNubank, onde cada um reescreveu o que faz em seus métodos,</br>
  logo em seguida foi criada a class Main para testes, até o momento está tudo Ok!. Agora aplicaremos o Principio de Substituição de Liskov,</br>
