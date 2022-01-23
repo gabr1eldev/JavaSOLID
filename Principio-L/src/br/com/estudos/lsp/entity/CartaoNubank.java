@@ -1,5 +1,19 @@
 package br.com.estudos.lsp.entity;
 
-public class CartaoNubank {
+import br.com.estudos.lsp.utility.Pagamento;
+
+public class CartaoNubank implements Pagamento {
+
+	@Override
+	public void validarCartao() throws Exception {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void coletarPagamento() {
+		// TODO Auto-generated method stub
+		
+	}
 
 }
