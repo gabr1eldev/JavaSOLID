@@ -20,15 +20,16 @@
 
 <b><h3>Principio-S</h3></b> 
 <h4>Foi criada uma class CRUD onde ela deveria fazer apenas uma única responsabilidade:</br>O sistema de CRUD,
-porém no final dos métodos CRUD,existe outro método chamado notificarCliente(),quebrando assim </br> o princípio da responsabilidade única. 
-Para corrigir este "erro"criamos uma Notificacao dentro do pacote utility,</br> separando então da class CRUD e corrigindo o princípio da Responsabilidade única</h4>
+porém no final dos métodos CRUD,existe outro método chamado notificarCliente(),quebrando assim </br> 
+o princípio da responsabilidade única. Para corrigir este "erro" criamos uma Notificacao dentro do pacote utility,</br>
+separando então da class CRUD e corrigindo o princípio da Responsabilidade única</h4>
 
 <b><h3>Principio-O</h3></b>
 <h4>Projeto feito com Herança,onde criamos 3 classes,onde 1 era a class principal que é a class Veículo</br>
 e as classes Carro e Moto,onde essas duas classes herdaram da classe mãe Veículo que </br>
-vem do princípio aberto para extensão e fechado para modificação,extendendo assim a class Veículo para Carro e Moto,</br>
-depois foi criado um enum contendo os valores:CARRO e MOTO,logo em seguida criamos a class Main </br>
-onde foi testado dinamicamente os objetos por herança.</h4
+vem do princípio aberto para extensão e fechado para modificação,extendendo assim a class Veículo</br>
+para Carro e Moto,depois foi criado um enum contendo os valores:CARRO e MOTO,logo em seguida criamos a</br>
+class Main onde foi testado dinamicamente os objetos por herança.</h4
 
 <b><h3>Principio-O-Com-Interface</h3></b>
 <h4>Aqui foi básicamente o mesmo projeto da branch <strong>Principio-O</strong> sendo que foi feito com </br>
