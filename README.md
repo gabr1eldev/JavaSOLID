@@ -25,9 +25,10 @@ Para corrigir este "erro"criamos uma Notificacao dentro do pacote utility,</br> 
 
 <b><h3>Principio-O</h3></b>
 <h4>Projeto feito com Herança,onde criamos 3 classes,onde 1 era a class principal que é a class Veículo</br>
-e as classes Carro e Moto,onde essas duas classes herdaram da classe mãe Veículo que vem do princípio aberto para extensão</br>
-e fechado para modificação,extendendo assim a class Veículo para Carro e Moto,depois foi criado um enum contendo os valores:
-CARRO e MOTO,logo em seguida criamos a class Main onde foi testado dinamicamente os objetos por herança.</h4
+e as classes Carro e Moto,onde essas duas classes herdaram da classe mãe Veículo que </br>
+vem do princípio aberto para extensão e fechado para modificação,extendendo assim a class Veículo para Carro e Moto,</br>
+depois foi criado um enum contendo os valores:CARRO e MOTO,logo em seguida criamos a class Main </br>
+onde foi testado dinamicamente os objetos por herança.</h4
 
 <b><h3>Principio-O-Com-Interface</h3></b>
 <h4>Aqui foi básicamente o mesmo projeto da branch <strong>Principio-O</strong> sendo que foi feito com </br>
