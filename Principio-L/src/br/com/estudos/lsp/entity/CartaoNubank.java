@@ -2,7 +2,7 @@ package br.com.estudos.lsp.entity;
 
 import br.com.estudos.lsp.utility.Pagamento;
 
-public class CartaoNubank implements Pagamento {
+public abstract class CartaoNubank implements Pagamento {
 
 	@Override
 	public void validarCartao() throws Exception {
