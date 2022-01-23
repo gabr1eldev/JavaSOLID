@@ -1,8 +1,9 @@
 package br.com.estudos.isp.entity;
 
 import br.com.estudos.isp.utility.Iveiculo;
+import br.com.estudos.isp.utility.IveiculoMoto;
 
-public class Moto implements Iveiculo{
+public class Moto implements Iveiculo,IveiculoMoto{
 	
 	private String color;
 	private String year;
@@ -21,11 +22,6 @@ public class Moto implements Iveiculo{
 		this.engine = engine;
 		System.out.println("Criando uma Moto " + engine + " " + color + " " + year);
 		iniciarVeiculo();
-		
-	}
-
-	public void configureCar(String color, int seats, String year, double engine) {
-		
 		
 	}
 

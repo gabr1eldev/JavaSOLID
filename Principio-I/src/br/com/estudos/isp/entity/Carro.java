@@ -1,9 +1,10 @@
 package br.com.estudos.isp.entity;
 
 import br.com.estudos.isp.utility.Iveiculo;
+import br.com.estudos.isp.utility.IveiculoCarro;
 
 
-public class Carro implements Iveiculo {
+public class Carro implements Iveiculo,IveiculoCarro {
 	
 	private String color;
 	private String year;
@@ -23,12 +24,6 @@ public class Carro implements Iveiculo {
 		this.year = year;
 		this.engine = engine;
 		System.out.println("Criando um carro " + engine + " " + color + " " + year + " " + seats);
-		
-	}
-
-	@Override
-	public void configureMoto(String color, String year, double engine) {
-		// TODO Auto-generated method stub
 		
 	}
 
