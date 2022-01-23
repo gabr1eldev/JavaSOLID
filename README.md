@@ -43,4 +43,5 @@ foi criada a class Main para testes, até o momento está tudo Ok!.</br>
 Agora aplicaremos o Principio de Substituição de Liskov, criamos a class NubankRewards </br>
 onde receberá a implementação da interface,agora ao invés de chamar o CreditCard ou DebitCard,</br>
 chamaremos o NubankRewards e de acordo com a subistituição de Liskov,</br>
-tudo irá funcionar perfeitamente porque fizemos orientado a Inferface</h4>
+tudo irá funcionar perfeitamente porque fizemos orientado a Inferface,assim não tivemos
+que alterar a class NubankCard e apenas implementamos a mesma Interface</h4>
