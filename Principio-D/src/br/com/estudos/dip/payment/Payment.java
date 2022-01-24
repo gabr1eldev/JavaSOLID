@@ -1,6 +1,9 @@
 package br.com.estudos.dip.payment;
 
 import br.com.estudos.dip.entity.MySQLProduct;
+import br.com.estudos.dip.factory.DbProductFactory;
+import br.com.estudos.dip.utility.Db;
+import br.com.estudos.dip.utility.IDbProduct;
 
 public class Payment {
 	
@@ -9,7 +12,8 @@ public class Payment {
 	
 	
 	public void pay(String productId) {
-		MySQLProduct dbProduct = new MySQLProduct();
+		//MySQLProduct dbProduct = new MySQLProduct();
+		IDbProduct dbProduct = DbProductFactory.create(Db.MYSQL);
 		String product = dbProduct.getProductById(productId);
 		System.out.println(product);
 	}
