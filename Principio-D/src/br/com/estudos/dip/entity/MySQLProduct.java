@@ -1,6 +1,8 @@
 package br.com.estudos.dip.entity;
 
-public class MySQLProduct {
+import br.com.estudos.dip.utility.IDbProduct;
+
+public class MySQLProduct implements IDbProduct{
 	
 	//apenas como exemplo,essa seria uma class de baixo nível
 	
