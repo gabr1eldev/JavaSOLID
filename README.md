@@ -52,3 +52,6 @@ criar um carro e criar uma moto,sendo assim quando implementamos essa interface 
 ficamos com um método a mais sem usá-lo, a solução é aplicar o Princípio da segregação da</br>
 interface,construindo mais 2 interface e dividindo as tarefas,uma para criar carro e outra</br>
 para criar  uma moto,evitando assim uma inferface inflada.</h4>
+
+<b><h3>Principio-D</h3></b>
+<h4>
