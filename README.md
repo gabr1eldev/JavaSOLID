@@ -54,4 +54,20 @@ interface,construindo mais 2 interface e dividindo as tarefas,uma para criar car
 para criar  uma moto,evitando assim uma inferface inflada.</h4>
 
 <b><h3>Principio-D</h3></b>
-<h4>
+<h4>O projeto inicialmente foi criado de forma errada errada para depois utilizar o Princípio da inversão de</br>
+   dependência exibindo a forma correta. Primeiro foi criado uma class de baixo nível chamada de:</br>
+   MysqlProduct simulando um banco de dados,logo depois foi criada uma class de alto nível chamada:</br>
+   Payment onde ela cria o método Pay e uma instância do MySQLProduct e pegando o método desta class,</br>
+   depois foi testada a class no main pela class Payment com o método pay,até aqui tudo está funcionando</br>
+   corretamente sem erros,porém a class de alto nível está dependendo da class MySQLProduct e de acordo</br>
+   com o Princípio da inversão de dependência,uma class de alto nível e uma class de baixo nível,ambas</br>
+   devem depender de abstração,onde isso será corrigido com um factory.</br>
+   Primeiro foi criada uma interface chamada IDbProduct ,passando o método antes usado apenas pelo</br>
+   MYSQLProduct e implementando a interface na class MySQLProduct,também foi criado uma class chamada</br>
+   MongoDBProduct implementando a interface IDbProduct apenas para fim de que pode-se criar quantas classes</br>
+   de banco quiser,é apenas para simular um  banco. Foi criado em seguida a class DbProductFactory que será</br>
+   a class de abstração comentada no próprio Princípio de inversão de dependência,em seguida foi criado um</br>
+   Enum para saber qual tipo de banco iria ser,passando assim para dentro do método stático do tipo da interface</br>
+   com o nome create(),em seguida na class Payment foi apagado a instância do MySQLProduct e colocando o</br> 
+   método create() do DbProductFactory. Agora a class Payment está amarrado ao Factory e não mais as</br> 
+   classes de baixo nível.</h4>
